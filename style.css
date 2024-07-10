@@ -253,3 +253,6 @@ height: 35px;
     justify-content: row;
     align-items: center;
 }
+#submit-btn{
+    text-align: center;
+}
