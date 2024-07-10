@@ -247,3 +247,9 @@ height: 35px;
     background-color: azure;
 }
 
+.icon{
+    display: flex;
+    gap: 10px;
+    justify-content: row;
+    align-items: center;
+}
