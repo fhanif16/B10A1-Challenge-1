@@ -1,1 +1,95 @@
 /* Style file */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* common styles starts here */
+.btn-primary{
+    width: 180px;
+height: 50px;
+align-items: center;
+padding: 17px 24px 17px 24px;
+}
+.title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 38px;
+font-weight: 800;
+}
+
+.subtitle{
+
+ color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+  
+    
+  
+}
+/* common styles ends here */
+
+
+/*  header section starts */
+#navigation{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+display: flex;
+justify-content: space-between;
+margin: 2% 10% 5% 10%;
+flex-direction: row;
+
+}
+ 
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('assets/Hero-bg.png');
+    background-size: cover;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+.banner .btn-primary{
+    background-color: black;
+    color: white;
+}
+
+
+/* Header section ends here */
+
+/* -----------------------------main section styles ---------------------------------------------*/
+
+/* web development section styles starts */
+.web-development-title{
+   text-align: center;
+  
+}
+.web-development-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 5% 10%;
+    border: 5px solid white;
+    border-radius: 16px;
+background: white
+    
+
+}
+
+#web-development{
+    background-color: azure;
+    margin: 5% 10% 5% 10%;
+
+}
+.left-side{
+    width: 50%;
+}
+.dev-img{
+    width: 400px;
+height: 300px
+}
