@@ -1,8 +1,8 @@
 /* Style file */
 
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* common styles starts here */
+
 .btn-primary{
     width: 180px;
 height: 50px;
@@ -74,22 +74,161 @@ flex-direction: row;
     display: flex;
     justify-content: space-between;
     margin: 5% 10% 5% 10%;
-    border: 5px solid white;
-    border-radius: 16px;
-background: white
+  
     
 
 }
+.web-development-details h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
 
+}
 #web-development{
     background-color: azure;
     margin: 5% 10% 5% 10%;
+    border: 5px solid white;
+
 
 }
+
 .left-side{
     width: 50%;
+    border: 5px solid white;
+    border-radius: 16px;
+background: white
 }
 .dev-img{
     width: 400px;
 height: 300px
 }
+
+/* web development section styles ends */
+/* ----------------------------------------second main section-------------------------------- */
+/* inspiration section starts  */
+.inspiration{
+    text-align: center;
+    
+}
+.inspiration p{
+    text-align: center;
+   
+    
+}
+
+#inspiration{
+    margin: 5% 10% 5% 10%;
+}
+.video{
+    border: 5px solid gainsboro;
+    padding: 10px;
+    box-shadow: 5px 10px whitesmoke;
+    border-radius: 10px;
+}
+
+/* inspiration ends */
+
+/* --------------------My current course------------------ */
+/* current course section starts */
+.current-target-title .title{
+    text-align: center;
+}
+
+.current-target-courses{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    
+  
+    margin: 5% 10% 5% 10%;
+    gap:10px;
+    border: 2px solid white;
+    padding: 10px;
+
+   
+    
+
+   
+    
+}
+
+.current-target-course{
+   text-align: start;
+   
+    border: 2px solid white;
+    width: 33%;
+   height: 350px;
+  
+   
+
+
+}
+
+#course-1{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+   
+}
+#course-2{
+    background-color:aquamarine;
+    margin: 10px;
+    padding: 10px;
+}
+#course-3{
+    background-color:beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* ends */
+
+/*-------------------------------- Footer---------------------- */
+
+#footer{
+
+}
+.support-section{
+    text-align: center;
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: 
+
+     rgba(0, 0, 0, 0.5);
+ 
+    width: 1044px;
+    height: 185px;
+    margin-left: 12%;
+
+padding:10px;
+
+}
+
+#submit{
+    width: 313px;
+height: 30px;
+
+
+
+}
+
+#submit-btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+width: 100px;
+height: 35px;
+
+}
+#form{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
