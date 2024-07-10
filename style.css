@@ -184,11 +184,9 @@ height: 300px
 
 /* ends */
 
-/*-------------------------------- Footer---------------------- */
+/*-------------------------------- support---------------------- */
 
-#footer{
 
-}
 .support-section{
     text-align: center;
     background-image: url(assets/handshake.jpg);
@@ -229,6 +227,20 @@ height: 35px;
     gap:10px;
     justify-content: center;
     align-items: center;
+}
+
+/* ------------------footer------------------ */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 5%;
+   
+}
+#footer{
+    background-color: azure;
 }
 
 
